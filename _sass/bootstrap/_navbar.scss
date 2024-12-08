@@ -8,21 +8,37 @@
 // Provide a static navbar from which we expand to create full-width, fixed, and
 // other navbar variations.
 
-.navbar {
-  position: relative;
-  min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
-  margin-bottom: $navbar-margin-bottom;
-  border: 1px solid transparent;
+.navbar_v2{
+  position: absolute;
+  // min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  // min-height: 70px; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  // margin-bottom: $navbar-margin-bottom;
+  margin-bottom: 100px;
+  border: 1px solid black;
 
   // Prevent floats from breaking the navbar
-  @include clearfix;
+  // @include clearfix;
 
   @media (min-width: $grid-float-breakpoint) {
     border-radius: $navbar-border-radius;
   }
 }
 
+.navbar-brand {
+  display: flex; /* Use Flexbox to align items horizontally */
+  align-items: center; /* Vertically align the logo and text */
+  gap: 40px; /* Add spacing between the logo and text */
+  font-family: "Baskerville", "Georgia", "Garamond", serif; /* Specify font family */
+  font-size: 25px;
+  // font-weight: bold;
+}
 
+.navbar-logo {
+  height: 55px; /* Adjust logo height as needed */
+  width: auto; /* Maintain the aspect ratio */
+  display: inline-block; /* Ensure proper display within Flexbox */
+  margin-top: 25px; /* Shift the logo down */
+}
 // Navbar heading
 //
 // Groups `.navbar-brand` and `.navbar-toggle` into a single component for easy
@@ -163,7 +179,7 @@
 .navbar-brand {
   float: left;
   padding: $navbar-padding-vertical $navbar-padding-horizontal;
-  font-size: $font-size-large;
+  font-size: 23px;
   line-height: $line-height-computed;
   height: $navbar-height;
 
@@ -231,6 +247,10 @@
 
 .navbar-nav {
   margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
+  // font-weight: bold; /* Make it bold */
+  font-size: 17px;
+  font-family: "Baskerville", "Georgia", "Garamond", serif; /* Specify font family */
+
 
   > li > a {
     padding-top:    10px;
@@ -396,15 +416,17 @@
 // Default navbar
 .navbar-default {
   background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  // border-color: $navbar-default-border;
+  border-color: darkblue;
 
   .navbar-brand {
-    color: $navbar-default-brand-color;
-    &:hover,
-    &:focus {
-      color: $navbar-default-brand-hover-color;
-      background-color: $navbar-default-brand-hover-bg;
-    }
+        color: $navbar-default-brand-color;
+  //   &:hover,
+  //   &:focus {
+  //     color: $navbar-default-brand-hover-color;
+  //     background-color: $navbar-default-brand-hover-bg;
+  //   font-size: $font-size-large;
+  //   }
   }
 
   .navbar-text {
