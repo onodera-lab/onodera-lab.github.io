@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
     <div class="container-fluid">
@@ -14,6 +12,9 @@
     </div>
 
     {% include footer.html %}
+    <!-- Code below used to be in footer - moved here because that was not the right place... -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
   </body>
 

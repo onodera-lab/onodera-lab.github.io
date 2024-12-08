@@ -1,0 +1,52 @@
+//
+// Footer
+// Custom code written by Hiro!
+// The previous code for footer is in _panels.scss, but it inherits from the panel class. So I wanted to make a new footer.scss file, to break the inheritance.
+// --------------------------------------------------
+
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+$x-large                    : 1280px !default;
+$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$global-font-family         : $sans-serif;
+
+.page__footer {
+    width: 100%;
+    color: mix(#fff, $gray, 40%);
+    background-color: #252a34;
+    padding: 20px 0;
+    text-align: center;
+  
+    .footer-panel {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+      justify-content: center; /* Center-align the content */
+      gap: 20px; /* Add spacing between items */
+    }
+  
+    .footer-item {
+      font-size: 14px;
+      line-height: 1.5;
+  
+      a {
+        color: mix(#fff, $gray, 50%);
+        text-decoration: none;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    .footer-bottom {
+      margin-top: 15px;
+      font-size: 12px;
+      color: mix(#fff, $gray, 60%);
+    }
+  }
