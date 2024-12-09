@@ -84,10 +84,24 @@ firstp {
 /* Carusel */
 
 .carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    // border-radius: 100px 0px 0px 100px;
+    rgin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
+.uoft-blue {
+    color: $uoft-blue;
+    font-weight: bold;
+}
+
+.no-bullet-list {
+    list-style-type: none; /* Removes the default bullets */
+    padding: 0;           /* Removes padding around the list */
+    margin: 0;            /* Removes extra space between list and surrounding elements */
+}
+
+.no-bullet-list li {
+    margin-bottom: 5px;   /* Optional: Adjust the spacing between list items */
+}

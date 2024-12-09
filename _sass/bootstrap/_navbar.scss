@@ -16,6 +16,7 @@
   margin-bottom: 100px;
   border: 1px solid black;
 
+
   // Prevent floats from breaking the navbar
   // @include clearfix;
 
@@ -31,6 +32,7 @@
   font-family: "Baskerville", "Georgia", "Garamond", serif; /* Specify font family */
   font-size: 25px;
   // font-weight: bold;
+  padding-left: 10px; /* Optional: add a little padding from the edge */
 }
 
 .navbar-logo {
@@ -38,6 +40,7 @@
   width: auto; /* Maintain the aspect ratio */
   display: inline-block; /* Ensure proper display within Flexbox */
   margin-top: 25px; /* Shift the logo down */
+  margin-left: -16px; /* Ensure no extra left margin */
 }
 // Navbar heading
 //
@@ -248,7 +251,8 @@
 .navbar-nav {
   margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
   // font-weight: bold; /* Make it bold */
-  font-size: 17px;
+  font-size: 18px; // Not capitalized
+  // font-size: 16px;
   font-family: "Baskerville", "Georgia", "Garamond", serif; /* Specify font family */
 
 
@@ -418,6 +422,7 @@
   background-color: $navbar-default-bg;
   // border-color: $navbar-default-border;
   border-color: darkblue;
+
 
   .navbar-brand {
         color: $navbar-default-brand-color;

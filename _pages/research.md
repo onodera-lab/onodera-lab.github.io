@@ -1,15 +1,21 @@
 ---
-title: "Allan Lab - Research"
+title: "Onodera Lab - Research"
 layout: textlay
-excerpt: "Allan Lab -- Research"
+excerpt: "Onodera Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
+Our group conducts research dadada. 
 
-Updating soon -- stay put. (Aug 11 2023)
+## Developing programmable photonic devices
+Hello, what will I type here. 
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+## Machine learning with programmable photonics
+Good I like the spacing. Much more reasonable!
+
+## Quantum computing with programmable photonics
+sdfasdf
 
 
