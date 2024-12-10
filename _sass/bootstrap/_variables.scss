@@ -63,8 +63,8 @@ $font-size-base:          16px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.0)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 1.7)) !default; // ~30px
+$font-size-h1:            floor(($font-size-base * 1.8)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 1.6)) !default; // ~30px
 $font-size-h3:            ceil(($font-size-base * 1.4)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
@@ -832,8 +832,8 @@ $carousel-control-width:                      15% !default;
 $carousel-control-opacity:                    .7 !default;
 $carousel-control-font-size:                  20px !default;
 
-$carousel-indicator-active-bg:                #fff !default;
-$carousel-indicator-border-color:             #fff !default;
+$carousel-indicator-active-bg:                 rgb(218, 218, 218) !default;
+$carousel-indicator-border-color:              rgb(141, 141, 141) !default;
 
 $carousel-caption-color:                      #fff !default;
 

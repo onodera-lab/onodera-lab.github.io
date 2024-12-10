@@ -1,0 +1,41 @@
+- title: Image sensing with multilayer nonlinear optical neural networks
+  description: ''
+  authors: T. Wang\*, M. M. Sohoni\*, L. G. Wright, M. M. Stein, S. Ma, T. Onodera, M. G. Anderson, P. L. McMahon
+  link:
+    url: https://doi.org/10.1038/s41566-023-01170-8
+    display: Nature Photonics 17, 408–415 (2023)
+
+- title: An optical neural network using less than 1 photon per multiplication
+  description: ''
+  authors: T. Wang, S. Ma, L. G. Wright, T. Onodera, B. C. Richard, P. L. McMahon
+  link:
+    url: https://doi.org/10.1038/s41467-021-27774-8
+    display: Nature Communications 13, 123 (2022)
+
+- title: Onset of non-Gaussian quantum physics in pulsed squeezing with mesoscopic fields
+  description: ''
+  authors: R. Yanagimoto\*, E. Ng\*, A. Yamamura, T. Onodera, L. G. Wright, M. Jankowski, M. M. Fejer, P. L. McMahon, H. Mabuchi
+  link:
+    url: https://doi.org/10.1364/OPTICA.447782
+    display: Optica 9, 379 (2022)
+
+- title: Efficient simulation of ultrafast quantum nonlinear optics with matrix product states
+  description: ''
+  authors: R. Yanagimoto\*, E. Ng\*, L. G. Wright, T. Onodera, H. Mabuchi
+  link:
+    url: https://doi.org/10.1364/OPTICA.423044
+    display: Optica 8, 1306 (2021)
+
+- title: Experimental investigation of performance differences between coherent Ising machines and a quantum annealer
+  description: ''
+  authors: R. Hamerly\*, T. Inagaki\*, P. L. McMahon\*, D. Venturelli, A. Marandi, T. Onodera, H. Takesue, Y. Yamamoto
+  link:
+    url: https://doi.org/10.1126/sciadv.aau0823
+    display: Science Advances 24, eaau0823 (2019)
+
+- title: Adiabatic Fock-state-generation scheme using Kerr nonlinearity
+  description: ''
+  authors: R. Yanagimoto, E. Ng, T. Onodera, H. Mabuchi
+  link:
+    url: https://doi.org/10.1103/PhysRevA.100.033822
+    display: Physical Review A 100, 033822 (2019)
