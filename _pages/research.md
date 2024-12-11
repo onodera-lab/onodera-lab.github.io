@@ -43,7 +43,7 @@ Recently, [we developed an optically programmable photonic device](https://arxiv
 </div>
 </div>
 
-## Quantum Computing and Sensing with Light
+## Quantum Information Processing with Light
 <style>
   .responsive-image_v2 {
     width: 100%; /* Full width on smaller screens */
@@ -67,26 +67,25 @@ Recently, [we developed an optically programmable photonic device](https://arxiv
      class="responsive-image_v2" 
      style="border-radius: 0px; margin-left: 2%;"
      alt="Photonics Image">
-Quantum photonic technologies offer a promising path to quantum computing and sensing, leveraging the large bandwidth of light and room-temperature operation. However, scalability remains a key challenge. Our lab aims to address this with novel programmable photonic devices that leverage the multimode nature of light. Specifically, we focus on generating and manipulating quantum states of light in ultrashort (femtosecond) pulses. A single beam of light, with its broad bandwidth, can support many temporal modes. Recently, [we demonstrated the programmable generation of squeezed states in over 100 modes](https://arxiv.org/abs/2401.06119).
+Quantum photonic technologies offer a promising path to quantum computing and sensing, leveraging the large bandwidth of light and room-temperature operation. However, scalability remains a key challenge. Our lab aims to address this with novel programmable photonic devices that leverage the multimode nature of light. Specifically, we focus on generating and manipulating quantum states of light in ultrashort (femtosecond) pulses. A single beam of light, with its broad bandwidth, can support many temporal modes. Recently, we demonstrated the [programmable generation of squeezed states in over 100 modes](https://arxiv.org/abs/2401.06119).
 
-Ultrashort pulses, with their large peak intensities, enhance the efficiency of nonlinear processes. During my PhD, I theoretically showed that ultrashort pulses in recently developed nonlinear nanophotonic platforms can reach the [single-photon level in nonlinear optical processes](https://doi.org/10.1103/PhysRevLett.124.240503), enabling coherent non-Gaussian operations crucial for continuous-variable quantum information. These advancements pave the way for fundamentally new quantum technologies, including a room-temperature photon-resolving detector. Our lab is actively pursuing these directions using programmable photonic devices for quantum computing and sensing applications.
+Ultrashort pulses, with their large peak intensities, enhance the efficiency of nonlinear processes. During my PhD, I theoretically showed that ultrashort pulses in recently developed nonlinear nanophotonic platforms can reach the [single-photon level in nonlinear optical processes](https://doi.org/10.1103/PhysRevLett.124.240503), enabling coherent non-Gaussian operations crucial for continuous-variable quantum information processing. These advancements pave the way for fundamentally new quantum technologies, including a room-temperature photon-resolving detector. Our lab is actively pursuing these directions using programmable photonic devices for quantum computing and sensing applications.
 
 </div>
 </div>
 
 ## Optical Deep Learning and Signal Processing
-- Give the high level background in 1 sentence. 
-- Say that optics allows us to reach energy efficiency xyz.
-- Talk about PNNs more. 
-- Talk about PAT briefly, training physical systems being a key theme. 
 
-Show a figure from the PNN stuff. Show a PNN figure in column form. 
+As deep learning becomes more prevalent in our increasingly data-driven society, the exponentially increasing energy consumption of conventional digital processors has become  critical challenge. Optical neural networks (ONNs) present a promising alternative, utilizing the low-dissipation propagation of light to process information. In our lab, we are developing ONNs capable of performing both large-scale linear operations, such as matrix-vector multiplication, and nonlinear operations.
+
+A key philosophy of our approach is to [harness the natural physical transformations of complex optical systems for information processing](https://doi.org/10.1038/s41586-021-04223-6). During my postdoc, I developed a [hybrid physical-digital training algorithm](https://doi.org/10.1038/s41586-021-04223-6), known as physics-aware training, that enables the training of complex optical systems for deep learning. Building on this foundation, our lab is advancing this direction by building ONNs based on complex multimode nonlinear wave propagation in both space and time, to enable programmable interactions across more than 100 modes. Beyond deep learning computations, this paradigm will also be applied to signal processing tasks in datacom systems, such as channel equalization and packet recognition.
 
 <style>
   .responsive-image_v3 {
     width: 100%; /* Full width on smaller screens */
     max-width: 600px; /* Restricts width to 400px on larger screens */
     height: auto; /* Maintains aspect ratio */
+    float: center;
   }
 
   @media (min-width: 400px) {
@@ -102,7 +101,7 @@ Show a figure from the PNN stuff. Show a PNN figure in column form.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/research_pics/pnn.png" 
      class="responsive-image_v3" 
-     style="border-radius: 0px; margin-left: 2%; margin-right: 5%; float: center;"
+     style="border-radius: 0px; float: center;"
      alt="Photonics Image">
 
 </div>
