@@ -7,6 +7,12 @@ permalink: /vacancies
 ---
 
 # Open positions
+We are always looking for new group members who are excited about science and engineering! Since you will be joining a new lab (as I experienced personally during my postdoc), you will have the rewarding opportunity to shape both the lab culture and the research direction. You will be based in Toronto, a vibrant city with a strong [AI](https://vectorinstitute.ai) and [Quantum](https://cqiqc.physics.utoronto.ca) community.
+
+The research in our group is highly interdisciplinary, and we welcome students with diverse backgrounds, including Electrical Engineering, Physics, and Computer Science. Projects in this lab are designed to have both experimental and theoretical components, so students with either background are encouraged to apply. If you are interested, please send me an email at t.onodera@utoronto.ca. Note that the application deadline for the academic year 2025 is **January 9, 2025**, please visit the [U of Toronto ECE department website](https://www.ece.utoronto.ca/graduates/#apply-now) for application details.
+
+Finally, we are always looking for highly motivated undergraduate students who would like to work on a project either for a summer internship or their thesis. Interested students are encouraged to send me an email at t.onodera@utoronto.ca, with a description of their background and interest.
+
 
 <!-- **We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
 
